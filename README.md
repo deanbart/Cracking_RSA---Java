@@ -1,4 +1,4 @@
-# Cracking_RSA---Java
+# Cracking_RSA-Java
 
 Task: 
 
