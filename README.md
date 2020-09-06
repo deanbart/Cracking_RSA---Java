@@ -13,13 +13,14 @@ provided with the ciphertext and Alice’s and Bob’s public keys.
 Solution:
 I have received a public-key (‘e’) and a modulus value (‘n’) for both Alice and Bob, alongside an encrypted ciphertext. 
 message (m) = c^d mod n
+
 d = 1/e mod r
 
 The r value also known as Euler’s totient/phi, is calculated by:
 r = (p − 1) ∗ (q − 1).
 
-Therefore, we must calculate the values of ‘p’ and ‘q’ (where n = p ∗ q), which requires us to
-factorize the modulus, to find which 2 prime factors multiplied equate to the value of ‘n’.
+Therefore, we must calculate the values of ‘p’ and ‘q’ (where n = p ∗ q).
+This requires us to factorize the modulus, to find which 2 prime factors multiplied equate to the value of ‘n’.
 
 q = n / q
 
